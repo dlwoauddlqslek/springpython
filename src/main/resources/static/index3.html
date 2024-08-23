@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--http://localhost:8080/index3.html-->
+<h3> 삼성전자 주가  </h3>
+<table border="1">
+    <thead>
+    <tr>
+        <th> 일자 </th> <th> 종가</th> <th>대비</th> <th>등락률</th>
+        <th>시가</th> <th>고가</th> <th>저가</th> <th>거래량</th> <th>거래대금</th> <th>시가총액</th> <th>상장주식수</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<!-- JQUERY -->
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        url : "http://127.0.0.1:5000/samsung" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('tbody')
+            let html = ``;
+            r.forEach( o => {
+                html += `<tr><th> ${ o.일자 } </th> <th> ${ o.종가 } </th> <th>${ o.대비 } </th> <th>${ o.등락률 }</th>
+                         <th> ${ o.시가 } </th> <th> ${ o.고가 }</th> <th> ${ o.저가 }</th><th> ${ o.거래량 }</th><th> ${ o.거래대금 }</th><th> ${ o.시가총액 }</th><th> ${ o.상장주식수 }</th></tr>`
+            })
+            tbody.innerHTML = html
+        }
+    })
+</script>
+
+</body>
+</html>
