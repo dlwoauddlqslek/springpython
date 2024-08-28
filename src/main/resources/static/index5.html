@@ -33,7 +33,7 @@
      $.ajax({ // Flask 서버에 통신
         method : 'get' ,
         async:false,
-        url : "http://192.168.30.21:5000/count" ,
+        url : "http://localhost:5000/count" ,
         success : r => { console.log(r);
             let tbody = document.querySelector('.count')
             let html = ``;
@@ -49,7 +49,7 @@
     $.ajax({ // Flask 서버에 통신
         method : 'get' ,
         async:false,
-        url : "http://192.168.30.21:5000/jobkorea" ,
+        url : "http://localhost:5000/jobkorea" ,
         success : r => { console.log(r);
             let tbody = document.querySelector('.info')
             let html = ``;
