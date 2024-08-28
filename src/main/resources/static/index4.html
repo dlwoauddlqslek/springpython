@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--http://localhost:8080/index3.html-->
+<h3> 쿠우쿠우 매장 정보  </h3>
+<table border="1">
+    <thead>
+    <tr>
+        <th> 번호 </th> <th> 매장명 </th> <th>연락처</th> <th>주소</th>
+        <th>영업시간</th> 
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<!-- JQUERY -->
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        url : "http://127.0.0.1:5000/qooqoo" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('tbody')
+            let html = ``;
+            r.forEach( o => {
+                html += `<tr><th> ${ o.번호 } </th> <th> ${ o.매장명 } </th> <th>${ o.연락처 } </th> <th>${ o.주소 }</th>
+                         <th> ${ o.영업시간 } </th></tr>`
+            })
+            tbody.innerHTML = html
+        }
+    })
+</script>
+
+</body>
+</html>
