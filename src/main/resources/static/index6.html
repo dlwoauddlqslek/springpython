@@ -10,6 +10,26 @@
 <table border="1">
     <thead>
     <tr>
+        <th>단지명</th><th>거래수</th>
+    </tr>
+    </thead>
+    <tbody class="most">
+    </tbody>
+</table>
+<div class="dupl"></div>
+<table border="1">
+    <thead>
+    <tr>
+        <th>index</th><th>월세</th> <th>전세</th>
+
+    </tr>
+    </thead>
+    <tbody class="divi">
+    </tbody>
+</table>
+<table border="1">
+    <thead>
+    <tr>
         <th>index</th><th> 전용면적_㎡ </th> <th> 월세금_만원 </th> <th>층</th> <th>건축년도</th>
         <th>종전계약_월세_만원</th> 
     </tr>
@@ -23,7 +43,7 @@
      $.ajax({ // Flask 서버에 통신
         method : 'get' ,
         async:false,
-        url : "http://192.168.30.21:5000/stati" ,
+        url : "http://localhost:5000/stati" ,
         success : r => { console.log(r);
             let tbody = document.querySelector('.count')
             let html = ``;
@@ -32,6 +52,51 @@
         <th> ${o.index} </th> <th> ${o.전용면적_} </th> <th>${o.월세금_만원}</th> <th>${o.층}</th>
         <th>${o.건축년도}</th> <th>${o.종전계약_월세_만원}</th>
     </tr>`
+            })
+            tbody.innerHTML = html
+        }
+    })
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://localhost:5000/division" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('.divi')
+            let html = ``;
+            Object.entries(r).forEach( ([key, value]) => {
+                html += `<tr>
+                            <th> ${key} </th> <th> ${value.월세} </th> <th>${value.전세}</th>
+
+                         </tr>`
+            })
+            tbody.innerHTML = html
+        }
+    })
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://localhost:5000/dupl" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('.dupl')
+            let html = ``;
+            r.forEach( o => {
+                html += `${o} `
+            })
+            tbody.innerHTML = html
+        }
+    })
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://localhost:5000/most" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('.most')
+            let html = ``;
+            r.forEach( o => {
+                html += `<tr>
+                            <th> ${o[0]} </th> <th> ${o[1]} </th>
+
+                         </tr>` 
             })
             tbody.innerHTML = html
         }
