@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--http://localhost:8080/index3.html-->
+<h3> 기술통계  </h3>
+<table border="1">
+    <thead>
+    <tr>
+        <th>index</th><th> 전용면적_㎡ </th> <th> 월세금_만원 </th> <th>층</th> <th>건축년도</th>
+        <th>종전계약_월세_만원</th> 
+    </tr>
+    </thead>
+    <tbody class="count">
+    </tbody>
+</table>
+<!-- JQUERY -->
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+     $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://192.168.30.21:5000/stati" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('.count')
+            let html = ``;
+            r.forEach( o => {
+                html += `<tr>
+        <th> ${o.index} </th> <th> ${o.전용면적_} </th> <th>${o.월세금_만원}</th> <th>${o.층}</th>
+        <th>${o.건축년도}</th> <th>${o.종전계약_월세_만원}</th>
+    </tr>`
+            })
+            tbody.innerHTML = html
+        }
+    })
+    
+</script>
+
+</body>
+</html>
