@@ -16,8 +16,9 @@
     <tbody class="most">
     </tbody>
 </table>
-<h3> 3. 최고 체감 온도 최다 5개</h3>
+<h3> 최고 체감 온도 최다 5개</h3>
 <div class="dupl"></div>
+<h3> 일자별로 그룹후 기술통계</h3>
 <table border="1">
     <thead class="hot2">
     <tr>
@@ -28,6 +29,7 @@
     <tbody class="divi">
     </tbody>    
 </table>
+<h3> 지점 중복제거후 출력</h3>
 <table border="1">
     <thead>
     <tr>
@@ -37,6 +39,7 @@
     <tbody class="count">
     </tbody>
 </table>
+<h3> 전체 출력</h3>
 <table border="1">
     <thead class="hot5">
     <tr>
@@ -117,7 +120,7 @@
             let html = ``;
             let responseKeys = Object.keys( r )
             responseKeys.forEach( key => {
-                html += `${key} : ${r[`${key}`]} `
+                html += `${key}°C : ${r[`${key}`]}번   `
                     console.log( key ) // 통계에 사용되는 거래정보 필드명
                     console.log( r[`${key}`] ) // 통계 필드의 값
         })
