@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--http://localhost:8080/index3.html-->
+<h3> 기술통계  </h3>
+<table border="1">
+    <thead class="hot1">
+    <tr>
+        <th>단지명</th><th>거래수</th>
+    </tr>
+    </thead>
+    <tbody class="most">
+    </tbody>
+</table>
+<h3> 3. 최고 체감 온도 최다 5개</h3>
+<div class="dupl"></div>
+<table border="1">
+    <thead class="hot2">
+    <tr>
+        <th>index</th><th>월세</th> <th>전세</th>
+
+    </tr>
+    </thead>
+    <tbody class="divi">
+    </tbody>    
+</table>
+<table border="1">
+    <thead>
+    <tr>
+        <th> 지점 </th>
+    </tr>
+    </thead>
+    <tbody class="count">
+    </tbody>
+</table>
+<table border="1">
+    <thead class="hot5">
+    <tr>
+        <th>  </th>
+    </tr>
+    </thead>
+    <tbody class="hot6">
+    </tbody>
+</table>
+<!-- JQUERY -->
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+     $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://192.168.30.21:5000/hot1" ,
+        success : r => { console.log(r);
+            let thead = document.querySelector('.hot1')
+            let html = `<tr> <th> </th>`;
+            let responseKeys = Object.keys( r )
+            responseKeys.forEach(keys =>{
+                html += `<th> ${keys} </th> `;
+            })
+            html+= `</tr>`;
+            
+            thead.innerHTML = html
+            html1 = ``;
+            let tbody = document.querySelector(".most");
+            let keys = Object.keys(r[responseKeys[0]])
+            keys.forEach(key => {
+                html1 += `<tr> <td> ${key} </td>`;
+                    
+                    responseKeys.forEach(v =>{
+                        let value = r[v]
+                        html1 += `<td> ${value[key]} </td>`;
+                    })
+                    html1 += `</tr>`;
+            })
+            tbody.innerHTML = html1
+        }
+    })
+    
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://192.168.30.21:5000/hot2" ,
+        success : r => { console.log(r);
+            let thead = document.querySelector('.hot2')
+            let html = `<tr> <th> </th>`;
+            let responseKeys = Object.keys( r )
+            responseKeys.forEach(keys =>{
+                html += `<th> ${keys} </th> `;
+            })
+            html+= `</tr>`;
+            
+            thead.innerHTML = html
+            html1 = ``;
+            let tbody = document.querySelector(".divi");
+            let keys = Object.keys(r[responseKeys[0]])
+            keys.forEach(key => {
+                html1 += `<tr> <td> ${key} </td>`;
+                    
+                    responseKeys.forEach(v =>{
+                        let value = r[v]
+                        html1 += `<td> ${value[key]} </td>`;
+                    })
+                    html1 += `</tr>`;
+            })
+            tbody.innerHTML = html1
+        }
+    })
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://192.168.30.21:5000/hot3" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('.dupl')
+            let html = ``;
+            let responseKeys = Object.keys( r )
+            responseKeys.forEach( key => {
+                html += `${key} : ${r[`${key}`]} `
+                    console.log( key ) // 통계에 사용되는 거래정보 필드명
+                    console.log( r[`${key}`] ) // 통계 필드의 값
+        })
+            tbody.innerHTML = html
+        }
+    })
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://192.168.30.21:5000/hot4" ,
+        success : r => { console.log(r);
+            let tbody = document.querySelector('.count')
+            let html = ``;
+            r.forEach( o => {
+                html += `<tr>
+                            ${o}
+                         </tr>` 
+            })
+            tbody.innerHTML = html
+        }
+    })
+    $.ajax({ // Flask 서버에 통신
+        method : 'get' ,
+        async:false,
+        url : "http://192.168.30.21:5000/hot5" ,
+        success : r => { console.log(r);
+            let thead = document.querySelector(".hot5")
+            let key = Object.keys(r[0])
+            let html = `<tr>`;
+            key.forEach(k =>{
+                html += `<th> ${k} </th>`;
+            })
+            html += `</tr>`;
+            thead.innerHTML = html;
+
+            let tbody = document.querySelector(".hot6")
+            let html1 = ``; 
+            r.forEach(r1 =>{
+                html1 += `<tr>`;
+                    key.forEach(k =>{
+                        html1 += `<td>${r1[k]}</td>`;
+                    })
+                html1 += `</tr>`;
+            })
+            tbody.innerHTML = html1
+        }
+    })
+    
+</script>
+
+</body>
+</html>
