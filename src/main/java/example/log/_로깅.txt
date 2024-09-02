@@ -7,16 +7,15 @@
 
     - application.properties 설정
         1. 로깅할 파일명 경로
-            logging.file.name = log파일경로
-            logging.file.name = src/main/resources/logging.log
+            logging.file.name = (src폴더부터)log파일경로 # logging.file.name = src/main/resources/logging.log
         2. 로깅 레벨의 루트
             1. logging.level.root = debug   ( debug , info , warn , error )
             2. logging.level.root = info    ( info , warn , error )
             3. logging.level.root = warn    ( warn , error )
             3. logging.level.root = error   ( error )
         3. 로깅 레벨의 특정 루트
-            1. logging.level.패키지경로  : logging.level.example.log.service패키지명 ( *전체 클래스 )
-            2. logging.level.특정클래스경로 : logging.level.example.log.LogController ( *특정 클래스 )
+            1. logging.level.패키지경로          # logging.level.(java폴더이하)패키지명경로 ( *패키지내 전체 클래스 )
+            2. logging.level.특정클래스경로       # logging.level.(java폴더이하)클래스경로 ( *특정 클래스 )
 
     - 로깅 레벨 : 적절한 상황에 따라 로깅 레벨를 선택하여 기록하기.
         1. debug : 개발 환경에서 사용 , 상세 정보
