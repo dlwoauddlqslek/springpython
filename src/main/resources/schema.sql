@@ -10,4 +10,12 @@ create table user (
     age int ,
     primary key (id )
 );
+drop table if exists account;
+create table account(
+	id int auto_increment,
+    ex varchar(30),
+    amount int,
+    date varchar(20),
+    primary key(id)
+)
 
