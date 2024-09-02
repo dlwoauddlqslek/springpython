@@ -6,6 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Appstart {
     public static void main(String[] args) {
-        SpringApplication.run(example.log.AppStart.class);
+        SpringApplication.run(example.task1.Appstart.class);
     }
 }

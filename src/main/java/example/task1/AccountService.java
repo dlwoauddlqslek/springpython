@@ -14,16 +14,16 @@ public class AccountService {
     @Autowired
     private AccountDao accountDao;
 
-    @PostMapping("/save")
+
     public int save(AccountDto accountDto){return accountDao.save(accountDto);}
 
-    @GetMapping("/findall")
+
     public List<AccountDto> findAll(){return accountDao.findAll();}
 
-    @PutMapping("/update")
+
     public int update(AccountDto accountDto){return accountDao.update(accountDto);}
 
-    @DeleteMapping("/delete")
+
     public int delete(int id){return accountDao.delete(id);}
 
 
