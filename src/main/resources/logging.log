@@ -1,0 +1,13 @@
+2024-09-02T13:52:18.279+09:00  INFO 12680 --- [main] example.log.AppStart                     : Starting AppStart using Java 17.0.11 with PID 12680 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-02T13:52:18.286+09:00  INFO 12680 --- [main] example.log.AppStart                     : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T13:52:20.102+09:00  WARN 12680 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[example.log]' package. Please check your configuration.
+2024-09-02T13:52:20.701+09:00  INFO 12680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T13:52:20.718+09:00  INFO 12680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T13:52:20.718+09:00  INFO 12680 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T13:52:20.801+09:00  INFO 12680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T13:52:20.802+09:00  INFO 12680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2449 ms
+2024-09-02T13:52:21.601+09:00  INFO 12680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-02T13:52:22.008+09:00  INFO 12680 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@675b18ff
+2024-09-02T13:52:22.011+09:00  INFO 12680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-02T13:52:22.354+09:00  INFO 12680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T13:52:22.401+09:00  INFO 12680 --- [main] example.log.AppStart                     : Started AppStart in 4.697 seconds (process running for 5.17)
