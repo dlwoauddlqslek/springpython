@@ -2,41 +2,30 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!-- xml 주석 -->
-<mapper namespace="example.task1.AccountDao" >  <!-- mapper start -->
-    <!-- namespace=" 매핑할 인터페이스 경로(위치) " -->
-    <!-- id="매핑할 추상메소드명"  resultType="반환할 타입"  -->
-    <!-- parameterType="매개변수타입"  sql 매개변수 표현 : #{변수명} -->
 
-    <!-- [C] 1. 등록 -->
-    <insert id="save"
-            parameterType="example.task1.AccountDto">
-        insert into account ( ex , amount , date )
-        values ( #{ex} , #{amount} , #{date} )
+<!-- 1. 매핑할 인터페이스명 정의 # namespace=경로(java폴더 아래부터) -->
+<mapper namespace="example.task1.AccountDao">
+
+    <!-- 2. DML INSERT # id  #parameterType=매개변수타입경로 -->
+    <insert id="create" parameterType="example.task1.AccountDto">
+        insert into account( content , price , date )
+                    values( #{ content } , #{ price }  , #{ date } )
     </insert>
 
-    <!-- [R] 2. 전체 출력 -->
-    <select id="findAll"
-            resultType="example.task1.AccountDto">
+    <!-- 2. DML SELECT  -->
+    <select id="read" resultType="example.task1.AccountDto">
         select * from account
     </select>
 
-    <!-- [R] 2-2 개별 출력 -->
-    <select id="findById" parameterType="int"
-            resultType="example.mybatis.UserDto">
-        select * from user where id = #{id}
-    </select>
-
-    <!-- [R] 3. 수정 -->
-    <update id="update"
-            parameterType="example.task1.AccountDto">
-        update user set ex = #{ex} , amount = #{amount} , date = #{date}
-        where id = #{id}
+    <!-- 2. DML UPDATE  -->
+    <update id="update" parameterType="example.task1.AccountDto">
+        update account set content = #{ content } , price = #{ price } ,
+                            date = #{date}  where id = #{ id }
     </update>
 
-    <!-- [D] 4. 삭제 -->
+    <!-- 2. DML DELETE  -->
     <delete id="delete" parameterType="int">
-        delete from account where id = #{id}
+        delete from account where id = #{ id }
     </delete>
 
-</mapper> <!-- mapper end -->
+</mapper>

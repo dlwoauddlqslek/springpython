@@ -10,19 +10,25 @@ import java.util.List;
 public class AccountController {
 
     @Autowired
-    private AccountService accountService;
+    AccountService accountService;
 
-    @PostMapping("/save")
-    public int save(AccountDto accountDto){return accountService.save(accountDto);}
-
-    @GetMapping("/findall")
-    public List<AccountDto> findAll(){
-        System.out.println("AccountController.findAll");
-        return accountService.findAll();}
-
-    @PutMapping("/update")
-    public int update(AccountDto accountDto){return accountService.update(accountDto);}
-
-    @DeleteMapping("/delete")
-    public int delete(int id){return accountService.delete(id);}
+    @PostMapping("")
+    // http://localhost:8080/account?content=커피&price=2000&date=2024-09-03
+    boolean create( AccountDto accountDto ) {
+        return accountService.create(accountDto);
+    }
+    @GetMapping("")
+    List<AccountDto> read(){
+        return accountService.read();
+    }
+    @PutMapping("")
+    // http://localhost:8080/account?content=커피&price=2000&date=2024-09-03&id=1
+    boolean update( AccountDto accountDto ){
+        return accountService.update( accountDto );
+    }
+    @DeleteMapping("")
+    // http://localhost:8080/account?id=1
+    boolean delete( int id ){
+        return accountService.delete( id );
+    }
 }
