@@ -1,184 +1,420 @@
-2024-09-09T12:11:44.287+09:00  INFO 10576 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 10576 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:11:44.306+09:00  INFO 10576 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:11:45.550+09:00  WARN 10576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:11:47.091+09:00  INFO 10576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:11:47.117+09:00  INFO 10576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:11:47.117+09:00  INFO 10576 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:11:47.266+09:00  INFO 10576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:11:47.267+09:00  INFO 10576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2858 ms
-2024-09-09T12:11:48.483+09:00  INFO 10576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:11:49.026+09:00  INFO 10576 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76cdafa3
-2024-09-09T12:11:49.029+09:00  INFO 10576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:11:49.507+09:00  INFO 10576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:11:49.542+09:00  INFO 10576 --- [main] web.AppStart                             : Started AppStart in 5.903 seconds (process running for 8.031)
-2024-09-09T12:11:49.739+09:00  INFO 10576 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T12:19:04.886+09:00  INFO 9372 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 9372 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:19:04.894+09:00  INFO 9372 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:19:05.847+09:00  WARN 9372 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:19:06.548+09:00  INFO 9372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:19:06.565+09:00  INFO 9372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:19:06.565+09:00  INFO 9372 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:19:06.650+09:00  INFO 9372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:19:06.651+09:00  INFO 9372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1672 ms
-2024-09-09T12:19:07.317+09:00  INFO 9372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:19:07.718+09:00  INFO 9372 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46394f65
-2024-09-09T12:19:07.720+09:00  INFO 9372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:19:07.969+09:00  INFO 9372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:19:07.987+09:00  INFO 9372 --- [main] web.AppStart                             : Started AppStart in 3.735 seconds (process running for 4.271)
-2024-09-09T12:19:08.101+09:00  INFO 9372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T12:21:00.216+09:00  INFO 6744 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 6744 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:21:00.220+09:00  INFO 6744 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:21:01.139+09:00  WARN 6744 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:21:01.724+09:00  INFO 6744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:21:01.741+09:00  INFO 6744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:21:01.741+09:00  INFO 6744 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:21:01.824+09:00  INFO 6744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:21:01.825+09:00  INFO 6744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1537 ms
-2024-09-09T12:21:02.822+09:00  INFO 6744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:21:03.226+09:00  INFO 6744 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46394f65
-2024-09-09T12:21:03.228+09:00  INFO 6744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:21:03.485+09:00  INFO 6744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:21:03.506+09:00  INFO 6744 --- [main] web.AppStart                             : Started AppStart in 3.881 seconds (process running for 4.326)
-2024-09-09T12:21:03.655+09:00  INFO 6744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T12:21:24.301+09:00  INFO 14700 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 14700 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:21:24.305+09:00  INFO 14700 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:21:25.174+09:00  WARN 14700 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:21:25.833+09:00  INFO 14700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:21:25.852+09:00  INFO 14700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:21:25.853+09:00  INFO 14700 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:21:25.941+09:00  INFO 14700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:21:25.942+09:00  INFO 14700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1565 ms
-2024-09-09T12:21:26.767+09:00  INFO 14700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:21:27.167+09:00  INFO 14700 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d518c66
-2024-09-09T12:21:27.169+09:00  INFO 14700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:21:27.462+09:00  INFO 14700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:21:27.480+09:00  INFO 14700 --- [main] web.AppStart                             : Started AppStart in 3.76 seconds (process running for 4.17)
-2024-09-09T12:21:27.628+09:00  INFO 14700 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T12:45:48.384+09:00  INFO 11884 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 11884 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:45:48.388+09:00  INFO 11884 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:45:49.225+09:00  WARN 11884 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:45:49.781+09:00  INFO 11884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:45:49.796+09:00  INFO 11884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:45:49.797+09:00  INFO 11884 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:45:49.873+09:00  INFO 11884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:45:49.874+09:00  INFO 11884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1414 ms
-2024-09-09T12:45:50.704+09:00  INFO 11884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:45:51.110+09:00  INFO 11884 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d518c66
-2024-09-09T12:45:51.114+09:00  INFO 11884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:45:51.491+09:00  INFO 11884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:45:51.514+09:00  INFO 11884 --- [main] web.AppStart                             : Started AppStart in 3.689 seconds (process running for 4.085)
-2024-09-09T12:45:55.163+09:00  INFO 11884 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T12:48:45.898+09:00  INFO 2212 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 2212 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:48:45.902+09:00  INFO 2212 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:48:47.060+09:00  WARN 2212 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:48:47.958+09:00  INFO 2212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:48:47.977+09:00  INFO 2212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:48:47.978+09:00  INFO 2212 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:48:48.079+09:00  INFO 2212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:48:48.079+09:00  INFO 2212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2093 ms
-2024-09-09T12:48:49.117+09:00  INFO 2212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:48:49.564+09:00  INFO 2212 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@251d7fdd
-2024-09-09T12:48:49.567+09:00  INFO 2212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:48:49.839+09:00  INFO 2212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:48:49.863+09:00  INFO 2212 --- [main] web.AppStart                             : Started AppStart in 4.592 seconds (process running for 4.999)
-2024-09-09T12:48:54.522+09:00  INFO 2212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T12:50:46.752+09:00  INFO 14928 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 14928 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:50:46.755+09:00  INFO 14928 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:50:47.661+09:00  WARN 14928 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:50:48.276+09:00  INFO 14928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:50:48.292+09:00  INFO 14928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:50:48.293+09:00  INFO 14928 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:50:48.458+09:00  INFO 14928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:50:48.459+09:00  INFO 14928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1628 ms
-2024-09-09T12:50:49.199+09:00  INFO 14928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:50:49.662+09:00  INFO 14928 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d518c66
-2024-09-09T12:50:49.664+09:00  INFO 14928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:50:49.938+09:00  INFO 14928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:50:49.960+09:00  INFO 14928 --- [main] web.AppStart                             : Started AppStart in 3.781 seconds (process running for 4.193)
-2024-09-09T12:50:50.226+09:00  INFO 14928 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T12:51:18.946+09:00  INFO 6332 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 6332 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:51:18.950+09:00  INFO 6332 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:51:19.827+09:00  WARN 6332 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:51:20.406+09:00  INFO 6332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:51:20.423+09:00  INFO 6332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:51:20.423+09:00  INFO 6332 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:51:20.508+09:00  INFO 6332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:51:20.508+09:00  INFO 6332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1480 ms
-2024-09-09T12:51:21.301+09:00  INFO 6332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:51:21.684+09:00  INFO 6332 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7971c2a9
-2024-09-09T12:51:21.687+09:00  INFO 6332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:51:21.927+09:00  INFO 6332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:51:21.955+09:00  INFO 6332 --- [main] web.AppStart                             : Started AppStart in 3.576 seconds (process running for 3.982)
-2024-09-09T12:52:26.515+09:00  INFO 15940 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 15940 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T12:52:26.519+09:00  INFO 15940 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T12:52:27.425+09:00  WARN 15940 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T12:52:28.235+09:00  INFO 15940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T12:52:28.259+09:00  INFO 15940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T12:52:28.259+09:00  INFO 15940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T12:52:28.376+09:00  INFO 15940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T12:52:28.377+09:00  INFO 15940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1790 ms
-2024-09-09T12:52:29.066+09:00  INFO 15940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T12:52:29.470+09:00  INFO 15940 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46394f65
-2024-09-09T12:52:29.473+09:00  INFO 15940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T12:52:29.852+09:00  INFO 15940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T12:52:29.881+09:00  INFO 15940 --- [main] web.AppStart                             : Started AppStart in 3.943 seconds (process running for 4.376)
-2024-09-09T12:52:30.055+09:00  INFO 15940 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T14:52:03.050+09:00  INFO 14460 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 14460 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T14:52:03.054+09:00  INFO 14460 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T14:52:04.119+09:00  WARN 14460 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T14:52:04.745+09:00  INFO 14460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T14:52:04.762+09:00  INFO 14460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T14:52:04.762+09:00  INFO 14460 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T14:52:04.855+09:00  INFO 14460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T14:52:04.860+09:00  INFO 14460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1725 ms
-2024-09-09T14:52:05.815+09:00  INFO 14460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T14:52:06.259+09:00  INFO 14460 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5111de7c
-2024-09-09T14:52:06.262+09:00  INFO 14460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T14:52:06.579+09:00  INFO 14460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T14:52:06.597+09:00  INFO 14460 --- [main] web.AppStart                             : Started AppStart in 4.145 seconds (process running for 4.631)
-2024-09-09T14:52:16.483+09:00  INFO 14460 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T15:28:41.495+09:00  INFO 13260 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 13260 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T15:28:41.499+09:00  INFO 13260 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T15:28:42.395+09:00  WARN 13260 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T15:28:43.089+09:00  INFO 13260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T15:28:43.105+09:00  INFO 13260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T15:28:43.105+09:00  INFO 13260 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T15:28:43.187+09:00  INFO 13260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T15:28:43.188+09:00  INFO 13260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1613 ms
-2024-09-09T15:28:43.978+09:00  INFO 13260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T15:28:44.353+09:00  INFO 13260 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@755b5f30
-2024-09-09T15:28:44.355+09:00  INFO 13260 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T15:28:44.724+09:00  INFO 13260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T15:28:44.747+09:00  INFO 13260 --- [main] web.AppStart                             : Started AppStart in 3.82 seconds (process running for 4.244)
-2024-09-09T15:28:47.009+09:00  INFO 13260 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T15:28:57.789+09:00 ERROR 13260 --- [http-nio-8080-exec-2] o.s.w.s.s.s.DefaultHandshakeHandler      : "Handshake failed due to invalid Upgrade header: null"
-2024-09-09T15:29:03.152+09:00 ERROR 13260 --- [http-nio-8080-exec-4] o.s.w.s.s.s.DefaultHandshakeHandler      : "Handshake failed due to invalid Upgrade header: null"
-2024-09-09T15:29:37.098+09:00  INFO 7536 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 7536 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T15:29:37.108+09:00  INFO 7536 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T15:29:38.010+09:00  WARN 7536 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T15:29:38.563+09:00  INFO 7536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T15:29:38.581+09:00  INFO 7536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T15:29:38.581+09:00  INFO 7536 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T15:29:38.665+09:00  INFO 7536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T15:29:38.666+09:00  INFO 7536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1480 ms
-2024-09-09T15:29:39.596+09:00  INFO 7536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T15:29:40.020+09:00  INFO 7536 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29bbc63c
-2024-09-09T15:29:40.023+09:00  INFO 7536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T15:29:40.251+09:00  INFO 7536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T15:29:40.268+09:00  INFO 7536 --- [main] web.AppStart                             : Started AppStart in 3.71 seconds (process running for 4.117)
-2024-09-09T15:29:41.121+09:00  INFO 7536 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T15:31:22.402+09:00  INFO 7912 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 7912 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
-2024-09-09T15:31:22.406+09:00  INFO 7912 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
-2024-09-09T15:31:23.492+09:00  WARN 7912 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
-2024-09-09T15:31:24.265+09:00  INFO 7912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-09-09T15:31:24.285+09:00  INFO 7912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-09-09T15:31:24.285+09:00  INFO 7912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
-2024-09-09T15:31:24.445+09:00  INFO 7912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-09-09T15:31:24.446+09:00  INFO 7912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1950 ms
-2024-09-09T15:31:25.425+09:00  INFO 7912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-09-09T15:31:25.872+09:00  INFO 7912 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
-2024-09-09T15:31:25.875+09:00  INFO 7912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-09-09T15:31:26.234+09:00  INFO 7912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-09-09T15:31:26.247+09:00  INFO 7912 --- [main] web.AppStart                             : Started AppStart in 4.564 seconds (process running for 5.046)
-2024-09-09T15:31:28.550+09:00  INFO 7912 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-09T16:31:06.043+09:00  WARN 7912 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m9s254ms685µs300ns).
+2024-09-12T10:48:59.957+09:00  INFO 10244 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 10244 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T10:48:59.957+09:00  INFO 10244 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T10:49:00.875+09:00  WARN 10244 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T10:49:01.466+09:00  INFO 10244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T10:49:01.481+09:00  INFO 10244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T10:49:01.481+09:00  INFO 10244 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T10:49:01.559+09:00  INFO 10244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T10:49:01.559+09:00  INFO 10244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1504 ms
+2024-09-12T10:49:02.331+09:00  INFO 10244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T10:49:02.698+09:00  INFO 10244 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@120aa40b
+2024-09-12T10:49:02.698+09:00  INFO 10244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T10:49:02.930+09:00  INFO 10244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T10:49:02.961+09:00  INFO 10244 --- [main] web.AppStart                             : Started AppStart in 3.579 seconds (process running for 4.018)
+2024-09-12T10:50:12.596+09:00  INFO 10244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T10:55:14.454+09:00  INFO 9368 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 9368 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T10:55:14.454+09:00  INFO 9368 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T10:55:15.478+09:00  WARN 9368 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T10:55:16.066+09:00  INFO 9368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T10:55:16.082+09:00  INFO 9368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T10:55:16.082+09:00  INFO 9368 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T10:55:16.160+09:00  INFO 9368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T10:55:16.160+09:00  INFO 9368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1606 ms
+2024-09-12T10:55:16.860+09:00  INFO 9368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T10:55:17.223+09:00  INFO 9368 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@785ed99c
+2024-09-12T10:55:17.223+09:00  INFO 9368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T10:55:17.458+09:00  INFO 9368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T10:55:17.475+09:00  INFO 9368 --- [main] web.AppStart                             : Started AppStart in 3.629 seconds (process running for 4.069)
+2024-09-12T10:55:18.871+09:00  INFO 9368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T10:55:59.782+09:00  INFO 5892 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 5892 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T10:55:59.782+09:00  INFO 5892 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T10:56:00.688+09:00  WARN 5892 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T10:56:01.313+09:00  INFO 5892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T10:56:01.329+09:00  INFO 5892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T10:56:01.329+09:00  INFO 5892 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T10:56:01.423+09:00  INFO 5892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T10:56:01.423+09:00  INFO 5892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2024-09-12T10:56:02.084+09:00  INFO 5892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T10:56:02.456+09:00  INFO 5892 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T10:56:02.456+09:00  INFO 5892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T10:56:02.680+09:00  INFO 5892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T10:56:02.680+09:00  INFO 5892 --- [main] web.AppStart                             : Started AppStart in 3.456 seconds (process running for 3.889)
+2024-09-12T10:56:13.720+09:00  INFO 5892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:02:16.325+09:00  INFO 10692 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 10692 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:02:16.332+09:00  INFO 10692 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:02:17.610+09:00  WARN 10692 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:02:18.126+09:00  INFO 10692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:02:18.142+09:00  INFO 10692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:02:18.142+09:00  INFO 10692 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:02:18.235+09:00  INFO 10692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:02:18.235+09:00  INFO 10692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1835 ms
+2024-09-12T11:02:19.263+09:00  INFO 10692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:02:19.615+09:00  INFO 10692 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c06b113
+2024-09-12T11:02:19.615+09:00  INFO 10692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:02:19.832+09:00  INFO 10692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:02:19.866+09:00  INFO 10692 --- [main] web.AppStart                             : Started AppStart in 4.186 seconds (process running for 4.587)
+2024-09-12T11:02:37.943+09:00  INFO 5044 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 5044 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:02:37.958+09:00  INFO 5044 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:02:39.318+09:00  WARN 5044 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:02:39.943+09:00  INFO 5044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:02:39.959+09:00  INFO 5044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:02:39.959+09:00  INFO 5044 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:02:40.037+09:00  INFO 5044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:02:40.037+09:00  INFO 5044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2007 ms
+2024-09-12T11:02:40.828+09:00  INFO 5044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:02:41.247+09:00  INFO 5044 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T11:02:41.247+09:00  INFO 5044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:02:41.480+09:00  INFO 5044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:02:41.494+09:00  INFO 5044 --- [main] web.AppStart                             : Started AppStart in 4.157 seconds (process running for 4.566)
+2024-09-12T11:02:48.413+09:00  INFO 5044 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:09:53.039+09:00  INFO 12232 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 12232 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:09:53.054+09:00  INFO 12232 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:09:54.253+09:00  WARN 12232 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:09:54.836+09:00  INFO 12232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:09:54.852+09:00  INFO 12232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:09:54.852+09:00  INFO 12232 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:09:54.930+09:00  INFO 12232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:09:54.930+09:00  INFO 12232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2024-09-12T11:09:55.668+09:00  INFO 12232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:09:56.026+09:00  INFO 12232 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c06b113
+2024-09-12T11:09:56.026+09:00  INFO 12232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:09:56.295+09:00  INFO 12232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:09:56.311+09:00  INFO 12232 --- [main] web.AppStart                             : Started AppStart in 3.948 seconds (process running for 4.355)
+2024-09-12T11:09:56.404+09:00  INFO 12232 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:11:29.752+09:00  INFO 11404 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 11404 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:11:29.752+09:00  INFO 11404 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:11:30.603+09:00  WARN 11404 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:11:31.155+09:00  INFO 11404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:11:31.171+09:00  INFO 11404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:11:31.171+09:00  INFO 11404 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:11:31.249+09:00  INFO 11404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:11:31.249+09:00  INFO 11404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1435 ms
+2024-09-12T11:11:32.226+09:00  INFO 11404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:11:32.571+09:00  INFO 11404 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c4ce583
+2024-09-12T11:11:32.571+09:00  INFO 11404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:11:32.852+09:00  INFO 11404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:11:32.880+09:00  INFO 11404 --- [main] web.AppStart                             : Started AppStart in 3.692 seconds (process running for 4.065)
+2024-09-12T11:11:32.986+09:00  INFO 11404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:14:26.057+09:00  INFO 8284 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 8284 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:14:26.073+09:00  INFO 8284 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:14:26.944+09:00  WARN 8284 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:14:27.475+09:00  INFO 8284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:14:27.506+09:00  INFO 8284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:14:27.506+09:00  INFO 8284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:14:27.584+09:00  INFO 8284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:14:27.584+09:00  INFO 8284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1441 ms
+2024-09-12T11:14:28.478+09:00  INFO 8284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:14:28.873+09:00  INFO 8284 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@696fad31
+2024-09-12T11:14:28.873+09:00  INFO 8284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:14:29.143+09:00  INFO 8284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:14:29.149+09:00  INFO 8284 --- [main] web.AppStart                             : Started AppStart in 3.625 seconds (process running for 4.022)
+2024-09-12T11:14:29.354+09:00  INFO 8284 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:17:42.138+09:00  INFO 8136 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 8136 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:17:42.138+09:00  INFO 8136 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:17:43.126+09:00  WARN 8136 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:17:43.656+09:00  INFO 8136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:17:43.672+09:00  INFO 8136 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:17:43.672+09:00  INFO 8136 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:17:43.767+09:00  INFO 8136 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:17:43.767+09:00  INFO 8136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1559 ms
+2024-09-12T11:17:44.455+09:00  INFO 8136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:17:44.810+09:00  INFO 8136 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T11:17:44.810+09:00  INFO 8136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:17:45.049+09:00  INFO 8136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:17:45.084+09:00  INFO 8136 --- [main] web.AppStart                             : Started AppStart in 3.495 seconds (process running for 3.961)
+2024-09-12T11:17:45.946+09:00  INFO 8136 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:18:09.216+09:00  INFO 3592 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 3592 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:18:09.216+09:00  INFO 3592 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:18:10.102+09:00  WARN 3592 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:18:10.649+09:00  INFO 3592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:18:10.664+09:00  INFO 3592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:18:10.664+09:00  INFO 3592 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:18:10.743+09:00  INFO 3592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:18:10.743+09:00  INFO 3592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1454 ms
+2024-09-12T11:18:11.660+09:00  INFO 3592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:18:12.063+09:00  INFO 3592 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T11:18:12.063+09:00  INFO 3592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:18:12.312+09:00  INFO 3592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:18:12.344+09:00  INFO 3592 --- [main] web.AppStart                             : Started AppStart in 3.684 seconds (process running for 4.081)
+2024-09-12T11:18:12.456+09:00  INFO 3592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:19:18.178+09:00  INFO 2876 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 2876 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:19:18.194+09:00  INFO 2876 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:19:19.159+09:00  WARN 2876 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:19:19.759+09:00  INFO 2876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:19:19.777+09:00  INFO 2876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:19:19.777+09:00  INFO 2876 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:19:19.860+09:00  INFO 2876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:19:19.860+09:00  INFO 2876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1598 ms
+2024-09-12T11:19:20.677+09:00  INFO 2876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:19:21.254+09:00  INFO 2876 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T11:19:21.254+09:00  INFO 2876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:19:21.495+09:00  INFO 2876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:19:21.510+09:00  INFO 2876 --- [main] web.AppStart                             : Started AppStart in 3.905 seconds (process running for 4.365)
+2024-09-12T11:19:21.844+09:00  INFO 2876 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:40:15.057+09:00  INFO 7652 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 7652 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:40:15.063+09:00  INFO 7652 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:40:15.931+09:00  WARN 7652 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:40:16.484+09:00  INFO 7652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:40:16.499+09:00  INFO 7652 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:40:16.499+09:00  INFO 7652 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:40:16.578+09:00  INFO 7652 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:40:16.578+09:00  INFO 7652 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1453 ms
+2024-09-12T11:40:17.272+09:00  INFO 7652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:40:17.650+09:00  INFO 7652 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@755b5f30
+2024-09-12T11:40:17.650+09:00  INFO 7652 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:40:17.924+09:00  INFO 7652 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:40:17.940+09:00  INFO 7652 --- [main] web.AppStart                             : Started AppStart in 3.434 seconds (process running for 3.946)
+2024-09-12T11:40:22.871+09:00  INFO 7652 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:42:39.396+09:00  INFO 6388 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 6388 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:42:39.412+09:00  INFO 6388 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:42:40.303+09:00  WARN 6388 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:42:40.855+09:00  INFO 6388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:42:40.871+09:00  INFO 6388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:42:40.871+09:00  INFO 6388 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:42:40.933+09:00  INFO 6388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:42:40.933+09:00  INFO 6388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2024-09-12T11:42:41.802+09:00  INFO 6388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:42:42.146+09:00  INFO 6388 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c48b543
+2024-09-12T11:42:42.146+09:00  INFO 6388 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:42:42.422+09:00  INFO 6388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:42:42.456+09:00  INFO 6388 --- [main] web.AppStart                             : Started AppStart in 3.614 seconds (process running for 4.014)
+2024-09-12T11:42:51.139+09:00  INFO 6388 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:48:23.304+09:00  INFO 7820 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 7820 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:48:23.309+09:00  INFO 7820 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:48:24.449+09:00  WARN 7820 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:48:25.206+09:00  INFO 7820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:48:25.223+09:00  INFO 7820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:48:25.223+09:00  INFO 7820 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:48:25.312+09:00  INFO 7820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:48:25.313+09:00  INFO 7820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1915 ms
+2024-09-12T11:48:26.205+09:00  INFO 7820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:48:26.659+09:00  INFO 7820 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T11:48:26.661+09:00  INFO 7820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:48:26.980+09:00  INFO 7820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:48:27.011+09:00  INFO 7820 --- [main] web.AppStart                             : Started AppStart in 4.307 seconds (process running for 4.797)
+2024-09-12T11:48:28.867+09:00  INFO 7820 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T11:59:51.893+09:00  INFO 520 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 520 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T11:59:51.898+09:00  INFO 520 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T11:59:52.907+09:00  WARN 520 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T11:59:53.596+09:00  INFO 520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T11:59:53.614+09:00  INFO 520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T11:59:53.614+09:00  INFO 520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T11:59:53.712+09:00  INFO 520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T11:59:53.712+09:00  INFO 520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2024-09-12T11:59:54.516+09:00  INFO 520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T11:59:54.956+09:00  INFO 520 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T11:59:54.960+09:00  INFO 520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T11:59:55.260+09:00  INFO 520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T11:59:55.300+09:00  INFO 520 --- [main] web.AppStart                             : Started AppStart in 4.114 seconds (process running for 4.547)
+2024-09-12T11:59:59.504+09:00  INFO 520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:07:48.139+09:00  INFO 3832 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 3832 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:07:48.147+09:00  INFO 3832 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:07:49.121+09:00  WARN 3832 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:07:50.316+09:00  INFO 3832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:07:50.332+09:00  INFO 3832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:07:50.333+09:00  INFO 3832 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:07:50.477+09:00  INFO 3832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:07:50.478+09:00  INFO 3832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2251 ms
+2024-09-12T12:07:51.276+09:00  INFO 3832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:07:51.672+09:00  INFO 3832 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@755b5f30
+2024-09-12T12:07:51.675+09:00  INFO 3832 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:07:51.922+09:00  INFO 3832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:07:51.937+09:00  INFO 3832 --- [main] web.AppStart                             : Started AppStart in 4.349 seconds (process running for 4.789)
+2024-09-12T12:07:52.061+09:00  INFO 3832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:08:18.164+09:00  INFO 7448 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 7448 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:08:18.168+09:00  INFO 7448 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:08:19.177+09:00  WARN 7448 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:08:19.781+09:00  INFO 7448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:08:19.799+09:00  INFO 7448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:08:19.799+09:00  INFO 7448 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:08:19.888+09:00  INFO 7448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:08:19.889+09:00  INFO 7448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1649 ms
+2024-09-12T12:08:20.659+09:00  INFO 7448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:08:21.044+09:00  INFO 7448 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@696fad31
+2024-09-12T12:08:21.048+09:00  INFO 7448 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:08:21.301+09:00  INFO 7448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:08:21.321+09:00  INFO 7448 --- [main] web.AppStart                             : Started AppStart in 3.728 seconds (process running for 4.184)
+2024-09-12T12:08:21.421+09:00  INFO 7448 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:08:28.604+09:00  INFO 9528 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 9528 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:08:28.608+09:00  INFO 9528 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:08:29.506+09:00  WARN 9528 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:08:30.126+09:00  INFO 9528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:08:30.144+09:00  INFO 9528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:08:30.145+09:00  INFO 9528 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:08:30.229+09:00  INFO 9528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:08:30.229+09:00  INFO 9528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1551 ms
+2024-09-12T12:08:31.022+09:00  INFO 9528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:08:31.405+09:00  INFO 9528 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c06b113
+2024-09-12T12:08:31.408+09:00  INFO 9528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:08:31.671+09:00  INFO 9528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:08:31.692+09:00  INFO 9528 --- [main] web.AppStart                             : Started AppStart in 3.641 seconds (process running for 4.049)
+2024-09-12T12:08:37.379+09:00  INFO 1912 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 1912 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:08:37.382+09:00  INFO 1912 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:08:38.295+09:00  WARN 1912 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:08:38.871+09:00  INFO 1912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:08:38.888+09:00  INFO 1912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:08:38.889+09:00  INFO 1912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:08:38.974+09:00  INFO 1912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:08:38.975+09:00  INFO 1912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1518 ms
+2024-09-12T12:08:39.797+09:00  INFO 1912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:08:40.199+09:00  INFO 1912 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@755b5f30
+2024-09-12T12:08:40.202+09:00  INFO 1912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:08:40.438+09:00  INFO 1912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:08:40.455+09:00  INFO 1912 --- [main] web.AppStart                             : Started AppStart in 3.67 seconds (process running for 4.112)
+2024-09-12T12:08:40.567+09:00  INFO 1912 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:08:58.973+09:00  INFO 10340 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 10340 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:08:58.976+09:00  INFO 10340 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:08:59.950+09:00  WARN 10340 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:09:00.572+09:00  INFO 10340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:09:00.615+09:00  INFO 10340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:09:00.615+09:00  INFO 10340 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:09:00.703+09:00  INFO 10340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:09:00.704+09:00  INFO 10340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1661 ms
+2024-09-12T12:09:01.522+09:00  INFO 10340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:09:01.908+09:00  INFO 10340 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@785ed99c
+2024-09-12T12:09:01.910+09:00  INFO 10340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:09:02.148+09:00  INFO 10340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:09:02.163+09:00  INFO 10340 --- [main] web.AppStart                             : Started AppStart in 3.765 seconds (process running for 4.209)
+2024-09-12T12:09:02.299+09:00  INFO 10340 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:11:38.439+09:00  INFO 4492 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 4492 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:11:38.443+09:00  INFO 4492 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:11:39.462+09:00  WARN 4492 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:11:40.054+09:00  INFO 4492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:11:40.069+09:00  INFO 4492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:11:40.070+09:00  INFO 4492 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:11:40.152+09:00  INFO 4492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:11:40.153+09:00  INFO 4492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1637 ms
+2024-09-12T12:11:40.847+09:00  INFO 4492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:11:41.221+09:00  INFO 4492 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39d77de9
+2024-09-12T12:11:41.223+09:00  INFO 4492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:11:41.499+09:00  INFO 4492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:11:41.516+09:00  INFO 4492 --- [main] web.AppStart                             : Started AppStart in 3.638 seconds (process running for 4.096)
+2024-09-12T12:11:47.932+09:00  INFO 4492 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:17:23.893+09:00  INFO 10976 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 10976 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:17:23.897+09:00  INFO 10976 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:17:24.788+09:00  WARN 10976 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:17:25.409+09:00  INFO 10976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:17:25.427+09:00  INFO 10976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:17:25.428+09:00  INFO 10976 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:17:25.510+09:00  INFO 10976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:17:25.511+09:00  INFO 10976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1539 ms
+2024-09-12T12:17:26.218+09:00  INFO 10976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:17:26.610+09:00  INFO 10976 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@696fad31
+2024-09-12T12:17:26.614+09:00  INFO 10976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:17:26.890+09:00  INFO 10976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:17:26.906+09:00  INFO 10976 --- [main] web.AppStart                             : Started AppStart in 3.576 seconds (process running for 4.069)
+2024-09-12T12:17:31.826+09:00  INFO 10976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:38:36.517+09:00  INFO 11616 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 11616 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:38:36.520+09:00  INFO 11616 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:38:37.429+09:00  WARN 11616 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:38:38.009+09:00  INFO 11616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:38:38.025+09:00  INFO 11616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:38:38.026+09:00  INFO 11616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:38:38.110+09:00  INFO 11616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:38:38.111+09:00  INFO 11616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1520 ms
+2024-09-12T12:38:39.192+09:00  INFO 11616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:38:39.580+09:00  INFO 11616 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a64cb0c
+2024-09-12T12:38:39.583+09:00  INFO 11616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:38:39.897+09:00  INFO 11616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:38:39.942+09:00  INFO 11616 --- [main] web.AppStart                             : Started AppStart in 3.991 seconds (process running for 4.456)
+2024-09-12T12:38:40.067+09:00  INFO 11616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:39:25.180+09:00  INFO 3452 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 3452 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:39:25.192+09:00  INFO 3452 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:39:26.231+09:00  WARN 3452 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:39:26.829+09:00  INFO 3452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:39:26.848+09:00  INFO 3452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:39:26.848+09:00  INFO 3452 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:39:26.931+09:00  INFO 3452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:39:26.932+09:00  INFO 3452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1660 ms
+2024-09-12T12:39:27.812+09:00  INFO 3452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:39:28.210+09:00  INFO 3452 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@785ed99c
+2024-09-12T12:39:28.213+09:00  INFO 3452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:39:28.458+09:00  INFO 3452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:39:28.481+09:00  INFO 3452 --- [main] web.AppStart                             : Started AppStart in 3.886 seconds (process running for 4.36)
+2024-09-12T12:39:28.664+09:00  INFO 3452 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:43:14.453+09:00  INFO 11004 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 11004 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:43:14.457+09:00  INFO 11004 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:43:15.388+09:00  WARN 11004 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:43:15.960+09:00  INFO 11004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:43:15.978+09:00  INFO 11004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:43:15.979+09:00  INFO 11004 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:43:16.162+09:00  INFO 11004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:43:16.163+09:00  INFO 11004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1639 ms
+2024-09-12T12:43:16.925+09:00  INFO 11004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:43:17.308+09:00  INFO 11004 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@272778ae
+2024-09-12T12:43:17.311+09:00  INFO 11004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:43:17.543+09:00  INFO 11004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:43:17.567+09:00  INFO 11004 --- [main] web.AppStart                             : Started AppStart in 3.669 seconds (process running for 4.224)
+2024-09-12T12:43:17.747+09:00  INFO 11004 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:46:43.445+09:00  INFO 6112 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 6112 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:46:43.449+09:00  INFO 6112 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:46:44.351+09:00  WARN 6112 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:46:44.919+09:00  INFO 6112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:46:44.937+09:00  INFO 6112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:46:44.937+09:00  INFO 6112 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:46:45.026+09:00  INFO 6112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:46:45.027+09:00  INFO 6112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1510 ms
+2024-09-12T12:46:45.829+09:00  INFO 6112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:46:46.209+09:00  INFO 6112 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@755b5f30
+2024-09-12T12:46:46.212+09:00  INFO 6112 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:46:46.453+09:00  INFO 6112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:46:46.482+09:00  INFO 6112 --- [main] web.AppStart                             : Started AppStart in 3.605 seconds (process running for 4.037)
+2024-09-12T12:46:53.202+09:00  INFO 6112 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T12:54:27.742+09:00  INFO 7176 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 7176 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T12:54:27.752+09:00  INFO 7176 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T12:54:28.836+09:00  WARN 7176 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T12:54:29.408+09:00  INFO 7176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T12:54:29.423+09:00  INFO 7176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T12:54:29.423+09:00  INFO 7176 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T12:54:29.642+09:00  INFO 7176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T12:54:29.644+09:00  INFO 7176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1809 ms
+2024-09-12T12:54:30.591+09:00  INFO 7176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T12:54:31.008+09:00  INFO 7176 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c4ce583
+2024-09-12T12:54:31.010+09:00  INFO 7176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T12:54:31.270+09:00  INFO 7176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T12:54:31.294+09:00  INFO 7176 --- [main] web.AppStart                             : Started AppStart in 4.141 seconds (process running for 4.77)
+2024-09-12T12:54:32.057+09:00  INFO 7176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T13:08:37.441+09:00  INFO 1196 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 1196 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T13:08:37.441+09:00  INFO 1196 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T13:08:38.419+09:00  WARN 1196 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T13:09:08.494+09:00  INFO 4372 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 4372 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T13:09:08.510+09:00  INFO 4372 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T13:09:09.396+09:00  WARN 4372 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T13:09:09.959+09:00  INFO 4372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T13:09:09.974+09:00  INFO 4372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T13:09:09.974+09:00  INFO 4372 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T13:09:10.052+09:00  INFO 4372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T13:09:10.052+09:00  INFO 4372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1473 ms
+2024-09-12T13:09:10.730+09:00  INFO 4372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T13:09:11.074+09:00  INFO 4372 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39d77de9
+2024-09-12T13:09:11.074+09:00  INFO 4372 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T13:09:11.305+09:00  INFO 4372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T13:09:11.321+09:00  INFO 4372 --- [main] web.AppStart                             : Started AppStart in 3.374 seconds (process running for 3.882)
+2024-09-12T13:09:15.530+09:00  INFO 4372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T13:10:22.074+09:00  INFO 3488 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 3488 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T13:10:22.074+09:00  INFO 3488 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T13:10:22.968+09:00  WARN 3488 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T13:10:23.578+09:00  INFO 3488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T13:10:23.593+09:00  INFO 3488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T13:10:23.593+09:00  INFO 3488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T13:10:23.671+09:00  INFO 3488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T13:10:23.671+09:00  INFO 3488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1519 ms
+2024-09-12T13:10:24.343+09:00  INFO 3488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T13:10:24.792+09:00  INFO 3488 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c4ce583
+2024-09-12T13:10:24.792+09:00  INFO 3488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T13:10:25.039+09:00  INFO 3488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T13:10:25.067+09:00  INFO 3488 --- [main] web.AppStart                             : Started AppStart in 3.553 seconds (process running for 4.063)
+2024-09-12T13:10:26.096+09:00  INFO 3488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-12T14:37:44.972+09:00  INFO 6232 --- [main] web.AppStart                             : Starting AppStart using Java 17.0.11 with PID 6232 (C:\Users\tj-bu-703-021\Desktop\springpython\build\classes\java\main started by tj-bu-703-021 in C:\Users\tj-bu-703-021\Desktop\springpython)
+2024-09-12T14:37:44.988+09:00  INFO 6232 --- [main] web.AppStart                             : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T14:37:45.844+09:00  WARN 6232 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[web]' package. Please check your configuration.
+2024-09-12T14:37:46.387+09:00  INFO 6232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-12T14:37:46.403+09:00  INFO 6232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-12T14:37:46.403+09:00  INFO 6232 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-12T14:37:46.465+09:00  INFO 6232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-12T14:37:46.465+09:00  INFO 6232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1409 ms
+2024-09-12T14:37:47.253+09:00  INFO 6232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-12T14:37:47.632+09:00  INFO 6232 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@755b5f30
+2024-09-12T14:37:47.632+09:00  INFO 6232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-12T14:37:47.896+09:00  INFO 6232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-12T14:37:47.914+09:00  INFO 6232 --- [main] web.AppStart                             : Started AppStart in 3.492 seconds (process running for 3.873)
